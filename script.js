@@ -48,7 +48,6 @@ function cronometro(){
     
         display.innerText=minFoco+':'+sec
         duration = duration - 1
-        //console.log(`${duration}`)
     
         if(duration == 0) {
             pause()
@@ -73,7 +72,7 @@ function cronometro(){
     
         display.innerText=minDesc+':'+sec
         durationDesc = durationDesc - 1
-        console.log(`${durationDesc}`)
+        
         if(durationDesc == 0) {
             pause()
             continuar()
